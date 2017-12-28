@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncLib", "SyncLib\SyncLib.csproj", "{E64C3B11-1D42-4C35-910C-E720DB0B554E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E64C3B11-1D42-4C35-910C-E720DB0B554E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64C3B11-1D42-4C35-910C-E720DB0B554E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64C3B11-1D42-4C35-910C-E720DB0B554E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E64C3B11-1D42-4C35-910C-E720DB0B554E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E64C3B11-1D42-4C35-910C-E720DB0B554E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E64C3B11-1D42-4C35-910C-E720DB0B554E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64C3B11-1D42-4C35-910C-E720DB0B554E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64C3B11-1D42-4C35-910C-E720DB0B554E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E64C3B11-1D42-4C35-910C-E720DB0B554E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E64C3B11-1D42-4C35-910C-E720DB0B554E}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD63C745-D51D-4582-BEA3-F890C67DE851}
+	EndGlobalSection
+EndGlobal

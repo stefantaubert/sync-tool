@@ -1,4 +1,4 @@
-# Description
+# Sync tool
 Tool for synchronizing two directories 1:1. Following operations are executed:
 - File operations:
 	- if file only exists in origin directory then it will be copied

@@ -1,21 +1,21 @@
 # Description
-Tool for synchronizing two directories 1:1.
+Tool for synchronizing two directories 1:1. Following operations are executed:
 - File operations:
-	- if file only existis in origin directory then it will be copied
-	- if file in destination not existis in origin then it will be deleted
+	- if file only exists in origin directory then it will be copied
+	- if file in destination not exists in origin then it will be deleted
 	- if file exists in both it will look if the last write time is not equal or if the size of the files are different, then it will overwrite the destination file. In all cases all attributes will be applied:
 		- last access time
 		- last write time 
 		- creation time 
 		- attributes (e.g. hidden)
 - Directory operations:
-	- if directory only existis in origin directory then it will be created in destination
-	- if directory in destination not existis in origin then it will be deleted
+	- if directory only exists in origin directory then it will be created in destination
+	- if directory in destination not exists in origin then it will be deleted
 	- if directory exists in both all directory properties from origin will be applied
 		- last access time
 		- last write time 
 		- creation time 
-		- attributes (e.g. hidden)
+		- attributes
 		
 ## Getting Started
 Either start the console application and enter the origin directory and destination directory or:
@@ -29,7 +29,7 @@ C:\
 D:\
 ```
 
-## Screenshots
+## Screenshot
 
 <p align="center">
   <img src="/screenshots/console.png">

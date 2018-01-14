@@ -1,4 +1,4 @@
-﻿namespace SyncLib
+﻿namespace SyncTool
 {
     using System;
     using System.Collections.Generic;
@@ -11,16 +11,16 @@
     {
         public Controller()
         {
-            Console.WriteLine("------------------");
-            Console.WriteLine("----- SYNCER -----");
-            Console.WriteLine("------------------");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("----- Sync-Tool -----");
+            Console.WriteLine("---------------------");
             Console.WriteLine();
         }
 
         public void Start()
         {
             string a = string.Empty, b = a, path;
-            path = Assembly.GetExecutingAssembly().GetName().Name + ".txt";
+            path = "settings.txt";
             if (File.Exists(path))
             {
                 string[] paths = File.ReadAllLines(path);
@@ -42,6 +42,11 @@
                 Console.WriteLine();
                 b = Console.ReadLine();
                 Console.WriteLine();
+            }
+            else
+            {
+                Console.WriteLine("Origin directory (A): " + a);
+                Console.WriteLine("Destination directory (B): " + b);
             }
 
             //a = "D:\\Testumgebung\\A";

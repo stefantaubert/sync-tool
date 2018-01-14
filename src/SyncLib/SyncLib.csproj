@@ -8,8 +8,8 @@
     <ProjectGuid>{E64C3B11-1D42-4C35-910C-E720DB0B554E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SyncLib</RootNamespace>
-    <AssemblyName>SyncLib</AssemblyName>
+    <RootNamespace>SyncTool</RootNamespace>
+    <AssemblyName>sync-tool</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -34,10 +34,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SyncLib.Program</StartupObject>
+    <StartupObject>SyncTool.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>VMware.ico</ApplicationIcon>
+    <ApplicationIcon>if_Sync_Center_98003.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,7 +60,7 @@
     <Compile Include="SyncPairs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="VMware.ico" />
+    <Content Include="if_Sync_Center_98003.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Allgemeine Informationen über eine Assembly werden über die folgenden 
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
-[assembly: AssemblyTitle("SyncLib")]
+[assembly: AssemblyTitle("Sync tool")]
 [assembly: AssemblyDescription("Program for synchronizing two directories 1:1.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SyncLib")]
-[assembly: AssemblyCopyright("Copyright © Stefan Taubert 2014")]
+[assembly: AssemblyProduct("Sync tool")]
+[assembly: AssemblyCopyright("Copyright © Stefan Taubert 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

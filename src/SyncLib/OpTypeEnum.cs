@@ -1,4 +1,4 @@
-﻿namespace SyncLib
+﻿namespace SyncTool
 {
     internal enum OpType
     {

@@ -3,3 +3,4 @@ bin/
 obj/
 Debug/
 Release/
+/src/.vs/SyncerConsole/v15/sqlite3/*.ide

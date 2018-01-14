@@ -1,4 +1,4 @@
-﻿namespace SyncLib
+﻿namespace SyncTool
 {
     using System;
     using System.Collections.Generic;

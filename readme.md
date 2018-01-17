@@ -35,5 +35,5 @@ D:\
   <img src="/screenshots/console.png">
 </p>
 
-# Acknoledgements
+# Acknowledgements
 Icon: https://www.iconfinder.com/icons/98003/center_sync_icon
